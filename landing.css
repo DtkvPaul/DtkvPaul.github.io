@@ -1,0 +1,121 @@
+.col-1, .col-2, .col-3 {
+    float: left;
+}
+
+.col-1 {
+    width: 45%;
+}
+
+.col-2, .col-3 {
+    width: 27.5%;
+    padding: 0 2.5%;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    color: #424652;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.375rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p, li {
+    font-size: 1.1rem;
+    line-height: 1.75;
+}
+
+p, ul, ol {
+    margin: 0 0 1.6rem 0;
+}
+
+.content h2 {
+    
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    
+}
+
+.content hr {
+    width: 6rem;
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #0787d1;
+    margin: 2rem 0;
+}
+
+.content h3 {
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+
+.about {
+    padding: 0 7.5% 0 0;
+}
+
+.about a {
+    color: #0787d1;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.knowledge a {
+    color: #424652;
+    font-weight: 700;
+    font-size: 1.35rem;
+    text-decoration: none;
+}
+
+.knowledge a:hover {
+    color: #0787d1;
+}
+
+.products a {
+    color: #424652;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.products a:hover {
+    color: #0787d1;
+}
+
+.info {
+    font-size: .85rem;
+    margin-bottom: 2rem;
+    color: grey;
+}
+
+.price {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: grey;
+}
+
+.copyright {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: grey;
+}

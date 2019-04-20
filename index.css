@@ -1,0 +1,79 @@
+@import "normalize.css";
+@import "landing.css";
+
+.clearfix:before
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#index-header {
+  padding: 3.5rem 10%;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+nav {
+    float: right;
+    padding-top: 0.8rem;
+}
+
+nav a  {
+    color: #424652;
+    text-decoration: none;
+    margin: 0 2rem;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+img {
+    margin-bottom: -3%;
+    width: 20%;
+    display: block;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.wrapper_padding {
+    padding: 4rem 0;
+}
+
+#index-footer {
+    background-color: #222;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+    float: right;
+}
+
+#index-footer p {
+    margin: 10px 0;
+}
+
+#index-footer a {
+    color: #0787d1;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+}
